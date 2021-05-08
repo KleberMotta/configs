@@ -1,0 +1,64 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [
+    80,
+    120
+  ],
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  // Plugin emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Num. de espaços
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  // Encoding
+  "files.encoding": "utf8",
+  // Auto explicativo
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.formatOnSave": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.autoClosingBrackets": "never",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\kjbin\\AppData\\Local\\nvim\\init.vim",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-nologo"
+      ],
+      "overrideName": true,
+    },
+  },
+  "terminal.integrated.shellArgs.windows": [
+    "-nologo"
+  ],
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.allowWorkspaceConfiguration": true,
+  "terminal.integrated.automationShell.windows": "-nologo",
+}
